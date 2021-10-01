@@ -6,5 +6,5 @@ import * as AWS from 'aws-sdk';
   const params = {};
   const sts = await stsClient.getCallerIdentity(params).promise();
 
-  console.log('Who I am ->', sts.Arn);
+  console.log('Who I am? ->', sts.Arn);
 })();
