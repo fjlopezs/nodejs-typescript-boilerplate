@@ -1,0 +1,7 @@
+name-template: v$NEXT_MINOR_VERSION
+tag-template: v$NEXT_MINOR_VERSION
+change-template: "- $TITLE  \n #$NUMBER @$AUTHOR"
+template: |
+  ### Included in this Release:
+  $CHANGES
+
